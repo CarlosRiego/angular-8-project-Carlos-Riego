@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    line-height: 25px;
+    font-size: 29px;
+    font-family: fantasy;
+    color: black;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+}
+
+span{
+    color: brown;
+}
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div{
+    text-align: center;
+    
+}
+.box{
+    margin-top: 50px;
+    border: 0px solid black ;
+    border-width: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: lightyellow  ;
+}

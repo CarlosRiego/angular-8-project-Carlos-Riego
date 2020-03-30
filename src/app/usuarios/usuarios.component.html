@@ -1,0 +1,17 @@
+<div *ngFor='let i of users; let o = index'>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{i.name}}</h5>
+            <p class="card-text">{{i.email}}</p>
+            <p class="card-text">{{i.phone}}</p>
+            
+
+            <a routerLink='/usuario' (click)="botonTrue(i)" class="btn btn-primary">Detalles</a><button class="btn btn-danger" (click)="borrarUser(o)">Eliminar</button>
+          </div>
+        </div>
+      </div>
+</div>

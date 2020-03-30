@@ -1,0 +1,29 @@
+.contenido{
+    margin-top: 55px;
+    width: 550px;
+    margin-left: 200px;
+    margin-right: 200px
+
+}
+
+p{
+    font-size: 25px;
+    font-family: fantasy;
+    color: blue;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+
+.box{
+    margin-top: 100px;
+    border: 1px solid black ;
+    border-width: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: skyblue;
+}

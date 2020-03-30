@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    line-height: 200px;
+    color: red;    
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    line-height: 100px;
+    color: black;    
+}
+div{
+    text-align: center;
+}

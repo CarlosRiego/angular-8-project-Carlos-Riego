@@ -1,0 +1,25 @@
+ <div *ngIf='estado == "false"' class="if">
+  
+  <form novalidate (ngSubmit)="OnSubmit()" #f="ngForm">
+   <div class="box">
+     <div class="contenido">
+<div class="input-group mb-3" id="aca">
+    <p>Usuario:</p>&nbsp;
+    <input type="text" name="usuario" class="form-control" placeholder="Usuario" aria-label="Usuario" aria-describedby="basic-addon1" #inputUser required >
+</div>
+  <div class="input-group mb-3">
+    <p>Contraseña:</p>&nbsp;
+    <input type="text" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1"  #inputPass ngModel required >
+  </div>
+
+  <div>
+    <button type="submit" class="btn btn-success" (click)='comprobarLogin(inputUser,inputPass)' [disabled]='f.invalid'>Enviar</button>
+  </div>
+</div>
+</div>
+</form>
+</div>
+
+<div *ngIf="estado == 'true'">
+  <h1>Inicio de sesion exitoso!!</h1>
+</div>

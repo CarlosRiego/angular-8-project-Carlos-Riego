@@ -1,0 +1,23 @@
+<button class="btn btn-danger" routerLink='/usuarios'>Atras</button>
+<hr>
+
+<div class="box">
+    <div class="contenido">
+        <div><img src="assets\img\laura.jpg" alt=""></div>
+        <br>
+        <h1><strong>{{user.name}}</strong></h1>
+        <h3><span>Nombre de Usuario:</span> &nbsp;{{user.username}}</h3>
+        <h3><span>Email:</span>&nbsp; {{user.email}}</h3>
+        <h3><span>Calle:</span> &nbsp;{{user.address.street}}</h3>
+        <h3><span>Suite:</span>  &nbsp;{{user.address.suite}}</h3>
+        <h3><span>Ciudad:</span> &nbsp;{{user.address.city}}</h3>
+        <h3><span>Codigo Postal:</span> &nbsp;{{user.address.zipcode}}</h3>
+        <h3><span>Celular:</span>&nbsp; {{user.phone}}</h3>
+        <h3><span>Sitio Web:</span>&nbsp; {{user.website}}</h3>
+        <h3><span>Compañia:</span>&nbsp; {{user.company.name}}</h3>
+        <h3><span>Eslogan:</span>&nbsp; {{user.company.catchPhrase}}</h3>
+        <h3><span>Orientacion:</span>&nbsp; {{user.company.bs}}</h3>
+    </div>
+</div>
+
+
